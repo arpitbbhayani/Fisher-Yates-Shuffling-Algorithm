@@ -41,12 +41,5 @@ def shuffle_fy_efficient(arr: List[Any]) -> List[Any]:
   return _sarr
 
 
-s = time.time()
-for _ in range(5):
-  shuffle_fy_original(ELEMENTS)
-print(time.time() - s)
-
-s = time.time()
-for _ in range(5):
-  shuffle_fy_efficient(ELEMENTS)
-print(time.time() - s)
+print(shuffle_fy_original(ELEMENTS))
+print(shuffle_fy_efficient(ELEMENTS))
