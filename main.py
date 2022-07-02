@@ -2,7 +2,7 @@ import random
 from typing import List, Any
 
 
-ELEMENTS = ['a'] * 100000
+ELEMENTS = ['a', 'b', 'c', 'e', 'f', 'g', 'h']
 
 
 def shuffle_fy_original(arr: List[Any]) -> List[Any]:
